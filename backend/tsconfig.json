@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "lib": ["es2020", "esnext.asynciterable"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@platform/*": ["./src/*"]
+    },
+  },
+}
